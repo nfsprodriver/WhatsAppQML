@@ -1,0 +1,16 @@
+{
+    "name": "whatsapp.nfsprodriver",
+    "description": "description of WhatsApp",
+    "architecture": "@CLICK_ARCH@",
+    "title": "WhatsApp",
+    "hooks": {
+        "WhatsApp": {
+            "apparmor": "WhatsApp/WhatsApp.apparmor",
+            "desktop":  "WhatsApp/WhatsApp.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Bjarne Roß <ross.b@freenet.de>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+

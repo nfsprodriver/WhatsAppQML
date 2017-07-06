@@ -1,0 +1,7 @@
+[Desktop Entry]
+_Name=WhatsApp
+Exec=qmlscene %U WhatsApp/Main.qml
+Icon=WhatsApp/WhatsApp.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
